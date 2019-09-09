@@ -323,9 +323,9 @@ iframe {
   z-index: 25;
 }
 
-.main_header_area + section, .main_header_area + div, .main_header_area + .row {
+/* .main_header_area + section, .main_header_area + div, .main_header_area + .row {
   margin-top: 152px;
-}
+} */
 
 .main_header_area.navbar_fixed .main_menu_area {
   position: fixed;
