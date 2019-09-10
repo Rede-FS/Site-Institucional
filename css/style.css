@@ -414,8 +414,8 @@ iframe {
 }
 
 .header_social li a {
-  font-size: 14px;
-  color: #e8e8e8;
+  font-size: 25px;
+  color: #ffcf00;
   line-height: 50px;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
