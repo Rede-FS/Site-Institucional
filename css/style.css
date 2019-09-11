@@ -3455,6 +3455,15 @@ iframe {
   transform: translateY(0);
 }
 
+
+/* @media (max-width: 991px) 
+{
+  .project_hover_inner {
+    background: rgba(255, 205, 0, 0.9);
+  }
+
+} */
+
 /* End Our Project area css
 ============================================================================================ */
 /* Work area css
