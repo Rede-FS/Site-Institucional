@@ -28,6 +28,25 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
 
+    <script type="text/javascript" charset="UTF-8"
+        src="https://maps.googleapis.com/maps-api-v3/api/js/37/5/intl/pt_br/common.js"></script>
+    <script type="text/javascript" charset="UTF-8"
+        src="https://maps.googleapis.com/maps-api-v3/api/js/37/5/intl/pt_br/util.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+
+
+    <style>
+        .resp-iframe {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 50%;
+            border: 0;
+            min-height: 450px;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -193,6 +212,24 @@
         </div>
     </section>
     <!--================End Project Single Area =================-->
+
+    <!--================Mapa=====================-->
+    <section class="project_single_area" style="background-color: rgb(199,199,199);" id="Localização">
+        <div class="container">
+            <div class="project_single_inner">
+                <div class="main_w_title">
+                    <h2><br class="title_br" />Localização</h2>
+                </div><br>
+                <div class="container">
+                    <iframe class="resp-iframe"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15938.056080985632!2d-48.9596666302246!3d-2.954767000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5297f9809c498212!2sPosto%20Santa%20Clara!5e0!3m2!1spt-BR!2sbr!4v1568941832389!5m2!1spt-BR!2sbr"
+                        width="900" height="450" frameborder="0" style="border:0;" allowfullscreen="">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================Mapa=====================-->
 
     <!--================Address Area =================-->
     <section class="address_area" id="Contato">
