@@ -24,6 +24,10 @@
     <link href="vendors/animate-css/animate.css" rel="stylesheet">
     <link href="vendors/owl-carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
+    <!-- VUE.js para o data bind -->
+    <script src="js/vue.js"></script>
+
+
     <!-- Extra plugin css -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
@@ -194,154 +198,46 @@
     </section>
     <!--================End Project Single Area =================-->
 
-        <!--================Our Project2 Area =================-->
-        <section class="our_project2_area project_grid_three">
-            <div class="container">
-                <div class="main_c_b_title">
-                     <h2><br class="title_br">Cardápio</h2>
-                     <h6>O melhor Self service de Tailândia</h6>
-                 </div>
-                 <ul class="our_project_filter">
-                     <li class="active" data-filter="*"><a href="#">Todos</a></li>
-                     <li data-filter=".building"><a href="#">Entradas</a></li>
-                     <li data-filter=".interior"><a href="#">Sobremesas</a></li>
-                     <li data-filter=".design"><a href="#">Carnes</a></li>
-                     <li data-filter=".isolation"><a href="#">Massas</a></li>
-                     <li data-filter=".plumbing"><a href="#">Sanduiche</a></li>
-                     <!-- <li data-filter=".tiling"><a href="#">Tiling</a></li> -->
-                 </ul>
-                 <div class="row our_project_details">
-                     <div class="col-md-4 col-sm-6 building isolation interior">
-                         <div class="project_item">
-                             <img src="img/project/project-grid-three/project-g-three-1.jpg" alt="">
-                             <div class="project_hover">
-                                 <div class="project_hover_inner">
-                                     <div class="project_hover_content">
-                                         <a href="#"><h4>Jahanara Vila</h4></a>
-                                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan-tium doloremque laudantium</p>
-                                         <a class="view_btn">R$ 123,45</a>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-md-4 col-sm-6 building isolation tiling design">
-                         <div class="project_item">
-                             <img src="img/project/project-grid-three/project-g-three-2.jpg" alt="">
-                             <div class="project_hover">
-                                 <div class="project_hover_inner">
-                                     <div class="project_hover_content">
-                                         <a href="#"><h4>Jahanara Vila</h4></a>
-                                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan-tium doloremque laudantium</p>
-                                         <a class="view_btn">R$ 123,45</a>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-md-4 col-sm-6 isolation tiling interior design plumbing">
-                         <div class="project_item">
-                             <img src="img/project/project-grid-three/project-g-three-3.jpg" alt="">
-                             <div class="project_hover">
-                                 <div class="project_hover_inner">
-                                     <div class="project_hover_content">
-                                         <a href="#"><h4>Jahanara Vila</h4></a>
-                                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan-tium doloremque laudantium</p>
-                                         <a class="view_btn">R$ 123,45</a>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-md-4 col-sm-6 building isolation tiling plumbing">
-                         <div class="project_item">
-                             <img src="img/project/project-grid-three/project-g-three-4.jpg" alt="">
-                             <div class="project_hover">
-                                 <div class="project_hover_inner">
-                                     <div class="project_hover_content">
-                                         <a href="#"><h4>Jahanara Vila</h4></a>
-                                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan-tium doloremque laudantium</p>
-                                         <a class="view_btn">R$ 123,45</a>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-md-4 col-sm-6 isolation tiling interior plumbing">
-                         <div class="project_item">
-                             <img src="img/project/project-grid-three/project-g-three-5.jpg" alt="">
-                             <div class="project_hover">
-                                 <div class="project_hover_inner">
-                                     <div class="project_hover_content">
-                                         <a href="#"><h4>Jahanara Vila</h4></a>
-                                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan-tium doloremque laudantium</p>
-                                         <a class="view_btn">R$ 123,45</a>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-md-4 col-sm-6 building isolation tiling design plumbing">
-                         <div class="project_item">
-                             <img src="img/project/project-grid-three/project-g-three-1.jpg" alt="">
-                             <div class="project_hover">
-                                 <div class="project_hover_inner">
-                                     <div class="project_hover_content">
-                                         <a href="#"><h4>Jahanara Vila</h4></a>
-                                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan-tium doloremque laudantium</p>
-                                         <a class="view_btn">R$ 123,45</a>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-md-4 col-sm-6 building isolation tiling plumbing">
-                         <div class="project_item">
-                             <img src="img/project/project-grid-three/project-g-three-2.jpg" alt="">
-                             <div class="project_hover">
-                                 <div class="project_hover_inner">
-                                     <div class="project_hover_content">
-                                         <a href="#"><h4>Jahanara Vila</h4></a>
-                                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan-tium doloremque laudantium</p>
-                                         <a class="view_btn">R$ 123,45</a>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-md-4 col-sm-6 isolation tiling interior plumbing">
-                         <div class="project_item">
-                             <img src="img/project/project-grid-three/project-g-three-3.jpg" alt="">
-                             <div class="project_hover">
-                                 <div class="project_hover_inner">
-                                     <div class="project_hover_content">
-                                         <a href="#"><h4>Jahanara Vila</h4></a>
-                                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan-tium doloremque laudantium</p>
-                                         <a class="view_btn">R$ 123,45</a>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-md-4 col-sm-6 building isolation tiling design plumbing">
-                         <div class="project_item">
-                             <img src="img/project/project-grid-three/project-g-three-4.jpg" alt="">
-                             <div class="project_hover">
-                                 <div class="project_hover_inner">
-                                     <div class="project_hover_content">
-                                         <a href="#"><h4>Jahanara Vila</h4></a>
-                                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan-tium doloremque laudantium</p>
-                                         <a class="view_btn">R$ 123,45</a>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
+    <!--================Our Project2 Area =================-->
+    <section class="our_project2_area project_grid_three">
+        <div class="container">
+            <div class="main_c_b_title">
+                <h2><br class="title_br">Cardápio</h2>
+                <h6>O melhor Self service de Tailândia</h6>
             </div>
-         </section>
-         <!--================End Our Project2 Area =================-->
- 
+            <ul class="our_project_filter">
+                <li class="active" data-filter="*"><a href="#">Todos</a></li>
+                <li data-filter=".entrada"><a href="#">Entradas</a></li>
+                <li data-filter=".sobremesa"><a href="#">Sobremesas</a></li>
+                <li data-filter=".carnes"><a href="#">Carnes</a></li>
+                <li data-filter=".massas"><a href="#">Massas</a></li>
+                <li data-filter=".sanduiche"><a href="#">Sanduiche</a></li>
+                <!-- <li data-filter=".tiling"><a href="#">Tiling</a></li> -->
+            </ul>
+            <div class="row our_project_details" id="menu">
+
+                <div class="col-md-4 col-sm-6" :class="item.categoria" v-for="item of cardapio">
+                    <div class="project_item">
+                        <img :src="item.imagem">
+                        <div class="project_hover">
+                            <div class="project_hover_inner">
+                                <div class="project_hover_content">
+                                    <a href="#">
+                                        <h4>{{item.titulo}}</h4>
+                                    </a>
+                                    <p>{{item.descricao}}</p>
+                                    <a class="view_btn">R$ {{item.valor}}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--================End Our Project2 Area =================-->
+
 
     <!--================Address Area =================-->
     <section class="address_area" id="Contato">
@@ -465,8 +361,11 @@
     <!--gmaps Js-->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
     <script src="js/gmaps.min.js"></script>
-
     <script src="js/theme.js"></script>
+
+    <!-- ===== Cria o cardapio ===== -->
+    <script src="js/cardapio.js"></script>
+
 </body>
 
 </html>
